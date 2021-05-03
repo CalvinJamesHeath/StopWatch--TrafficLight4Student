@@ -35,6 +35,9 @@ const Timer = () => {
 					<table>
 						<tr>
 							<td>
+								<Subtitle>Horas</Subtitle>
+							</td>
+							<td>
 								<Subtitle>Minutos</Subtitle>
 							</td>
 
@@ -48,6 +51,13 @@ const Timer = () => {
 							</td>
 						</tr>
 						<tr>
+							<td>
+								<Numbers>
+									<span>
+										{('0' + Math.floor((time / 36000000) % 60)).slice(-2)}
+									</span>
+								</Numbers>
+							</td>
 							<td>
 								<Numbers>
 									<span>

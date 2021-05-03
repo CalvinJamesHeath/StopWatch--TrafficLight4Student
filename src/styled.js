@@ -31,7 +31,7 @@ export const Container2 = styled.div`
 `;
 export const Center = styled.div`
 	position: relative;
-	left: 97px;
+	left: 17px;
 `;
 
 export const Subtitle = styled.h4`
