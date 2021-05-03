@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { Title } from './styled';
 import { Wrapper } from './styled';
 import { Container } from './styled';
-
+import Timer from './Timer';
 function App() {
 	const [clicked, setClicked] = useState(false);
 
@@ -31,6 +31,7 @@ function App() {
 				<Container>
 					<Circle onClick={encender} />
 				</Container>
+				<Timer />
 			</Wrapper>
 			{/* <div className='contenedor'>
 				<div class='circleBase type1'></div>
